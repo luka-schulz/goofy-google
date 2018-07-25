@@ -102,6 +102,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
 
 // Initiate the machine learning loop
 function init() {
+  pageScroll();
   createImage( "1.jpg" );
 }
 
@@ -208,4 +209,10 @@ function getFileName( link ) {
   const urlParts = link.split( "/" );
   
   return urlParts[ urlParts.length - 1 ];
+}
+
+// Autoscroller
+function pageScroll() {
+  window.scrollBy( 0, 1 );
+  scrolldelay = setTimeout( pageScroll, 9 );
 }
