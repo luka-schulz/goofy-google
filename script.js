@@ -1,39 +1,18 @@
-// Copyright (C) 2018 Cristobal Valenzuela
-// 
-// This file is part of RunwayML.
-// 
-// RunwayML is free software: you can redistribute it and/or modify
-// it under the terms of the GNU General Public License as published by
-// the Free Software Foundation, either version 3 of the License, or
-// (at your option) any later version.
-// 
-// RunwayML is distributed in the hope that it will be useful,
-// but WITHOUT ANY WARRANTY; without even the implied warranty of
-// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-// GNU General Public License for more details.
-// 
-// You should have received a copy of the GNU General Public License
-// along with RunwayML.  If not, see <http://www.gnu.org/licenses/>.
-// 
-// ===============================================================
-//
 // Runway: Goofy Google 
 // This example sends images between Runway and the Google Search API. The
-// captions from Runway are the basis for each google search. Previosuly
-// selected images are black listed.
+// captions from Runway are the basis for each Google search.
 //
 // You should select HTTP from the Input Panel
-// 
+//
+// Created by Luka Schulz
+// hello@lukaschulz.com
+//
+// With much thanks to
 // Cristóbal Valenzuela
 // cris@runwayml.com
 //
-// Modified by Luka Schulz
-// hello@lukaschulz.com
-//
 // ===============================================================
 
-//let canv;
-//let img;
 let socket;
 let imageToggle = 0;
 let yourKey = "AIzaSyA-J6H4RpYlo3LShNr345wfy1fjj4wP4wU";
