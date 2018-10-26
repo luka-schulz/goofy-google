@@ -1,5 +1,5 @@
 ## Goofy Google
-A web crawler of sorts that implements its logic using the im2txt model via Runway
+A web crawler of sorts that implements its logic using the im2txt model via Runway. The full case study can be found [here](https://luka-schulz.firebaseapp.com/portfolio/goofy-google/index.html "Goofy Google case study").
 
 ### Instructions
 1) Open Docker and Runway
